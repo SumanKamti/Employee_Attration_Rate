@@ -7,7 +7,7 @@ import pickle
 clf = pickle.load(open("case_study_emp.pkl","rb"))
 
 def predict(data):
-    clf = pickle.load(open("case_study_emp","rb"))
+    clf = pickle.load(open("case_study_emp.pkl","rb"))
     return clf.predict(data)
 
 
